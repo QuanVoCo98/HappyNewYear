@@ -1,0 +1,144 @@
+@media only screen and (min-width:1200px){
+    html{
+        zoom: 95%;
+    }
+    .avatar__title_1 {
+        cursor: pointer;
+        margin-top: -12%;
+        margin-left: 10%;
+    }
+    h2 {
+        font-size: 1.5em;
+        color: white;
+    }
+}
+/* Big tablet to 1200px; */
+@media only screen and (max-width:1200px){
+    html{
+        zoom: 95%;
+    }
+    .avatar__title_1 {
+        cursor: pointer;
+        margin-top: -12%;
+        margin-left: 10%;
+    }
+    h2 {
+        font-size: 1.5em;
+        color: white;
+    }
+}
+
+/* Small tablet to big tablet from 768x to 1023px */
+@media only screen and (max-width:1023px){
+    html{
+        zoom: 95%;
+    }
+    .container {
+        width: 665px;
+        padding: 10%;
+        margin: auto;
+        position: relative;
+    }
+    .avatar{
+        cursor: pointer;
+        position: absolute;
+        top: 35%;
+        left: calc(40% - 100px);
+    }  
+    .avatar__img {
+        width: 400px;
+        height: 400px;
+    }  
+    .avatar__title {
+        cursor: pointer;
+        margin-top: 25%;
+    }
+    h1 {
+        font-size: 6.0em;
+    }
+    .avatar__title_1 {
+        cursor: pointer;
+        margin-top: -6%;
+        margin-left: 15%;
+    }
+    h2 {
+        font-size: 2.5em;
+        color: white;
+    }
+}
+
+/* Small phones to small tablets */
+@media only screen and (max-width:767px){
+    html{
+        zoom: 70%;
+    }
+    .container {
+        width: 980px;
+        padding: 3%;
+        margin: auto;
+        position: relative;
+    }
+    .avatar{
+        cursor: pointer;
+        position: absolute;
+        top: 45%;
+        left: calc(40% - 100px);
+    }
+    .avatar__img {
+        width: 300px;
+        height: 300px;
+    }
+    .avatar__title {
+        cursor: pointer;
+        margin-top: 14%;
+    }
+    h1 {
+        font-size: 4.0em;
+    }
+    .avatar__title_1 {
+        cursor: pointer;
+        margin-top: -6%;
+        margin-left: 15%;
+    }
+    h2 {
+        font-size: 2.0em;
+        color: white;
+    }
+}
+
+/* Small phones from 0 to 480px */
+@media only screen and (max-width:480px){
+    html{
+        zoom: 48%;
+    }
+    .container {
+        width: 650px;
+        height: 80%;
+    }
+    .avatar{
+        cursor: pointer;
+        position: absolute;
+        top: 40%;
+        left: calc(40% - 100px);
+    }
+    .avatar__img {
+        width: 400px;
+        height: 400px;
+    }
+    .avatar__title {
+        cursor: pointer;
+        margin-top: 16%;
+    }
+    h1 {
+        font-size: 6.5em;
+    }
+    .avatar__title_1 {
+        cursor: pointer;
+        margin-top: -6%;
+        margin-left: 12%;
+    }
+    h2 {
+        font-size: 3em;
+        color: white;
+    }
+}
